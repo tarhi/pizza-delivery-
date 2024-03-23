@@ -1,0 +1,4 @@
+services:
+  app:
+    environnement:
+      SQLITE_URL:   "sqlite+aiosqlite:///./test.db"
